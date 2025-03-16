@@ -1,1 +1,38 @@
- 
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.env
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+output/
+test_output/
+profile_results/
+*.mp4
+*.jpg
+*.png
+
+# OS
+.DS_Store
+Thumbs.db 
