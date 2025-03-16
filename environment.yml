@@ -1,0 +1,46 @@
+name: shottomatte
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch-cuda=11.8
+  - numpy=1.24.3
+  - opencv=4.8.1
+  - kornia=0.8.0
+  - tqdm=4.66.1
+  - matplotlib
+  - scikit-image
+  - pillow
+  - imageio
+  - pytest
+  # Packages below are commented out until needed
+  # - matplotlib
+  # - scikit-image
+  # - pillow
+  # - imageio
+  # - pytest
+  # Core ML/CV dependencies - minimal set
+  # - pytorch
+  # - numpy>=1.24.0
+  # - opencv>=4.8.0
+  # Essential utilities
+  # - tqdm>=4.65.0
+  # Development
+  # - ipython>=8.12.0
+  # Additional packages to be added as needed:
+  # - torchvision  # Add when needed for image processing
+  # - matplotlib   # Add when needed for visualization
+  # - scikit-image # Add when needed for advanced image processing
+  # - pillow       # Add when needed for basic image operations
+  # - imageio      # Add when needed for image I/O
+  # - pytest       # Add when needed for testing
+  # - pip:
+  #   - kornia>=0.7.0  # Required for core functionality
+  #   # Optional components to be uncommented as needed:
+  #   # - "git+https://github.com/princeton-vl/RAFT.git"
+  #   # - "git+https://github.com/facebookresearch/detectron2.git" 

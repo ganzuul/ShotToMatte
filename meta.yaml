@@ -1,0 +1,27 @@
+package:
+  name: shottomatte
+  version: 0.1.0
+
+source:
+  path: .
+
+build:
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 0
+
+requirements:
+  host:
+    - python
+  run:
+    - python
+    - pytorch
+    - torchvision
+    - numpy
+    - opencv
+    - kornia
+    - tqdm
+
+about:
+  home: https://github.com/aivisionlabs/shottomatte
+  license: MIT
+  summary: Extract matte paintings from animated content using deep learning 
